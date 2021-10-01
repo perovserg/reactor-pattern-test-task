@@ -55,6 +55,5 @@ const checkIfAllHandled = (): void => {
     }
 };
 
-// spotStore.loadFromLocalStorage();
 const wrapper = async () => await test();
 wrapper();
