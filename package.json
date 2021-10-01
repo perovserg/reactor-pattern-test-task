@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "testSpotStore": "ts-node spotStore.test.ts",
+    "testReactorService": "ts-node reactorService.test.ts",
+    "testReactorServiceWithTimeout": "REACTOR_SERVICE_TIMEOUT=10 ts-node reactorService.test.ts"
+  },
+  "devDependencies": {
+    "ts-node": "10.2.1",
+    "typescript": "4.4.3"
+  }
+}
